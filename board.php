@@ -10,7 +10,7 @@
     <meta name="author" content="">
     <!-- Favicon icon -->
     <link rel="icon" type="image/png" sizes="16x16" href="../assets/images/favicon.png">
-    <title>Eden School Admin Template - The Most Complete & Trusted Bootstrap 4 Admin Template</title>
+    <title>Material Pro Admin Template - The Most Complete & Trusted Bootstrap 4 Admin Template</title>
     <!-- Bootstrap Core CSS -->
     <link href="../assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <!-- Custom CSS -->
@@ -105,9 +105,59 @@
                 <!-- Start Page Content -->
                 <!-- ============================================================== -->
                 <!-- Row -->
-                <div class="row">
-                    
-                </div>
+               <table class="table table-bordered">
+  <thead>
+   <td colspan="2">
+                                                        <button type="button" class="btn btn-info btn-rounded" data-toggle="modal" data-target="#add-contact">ADD</button>
+                                                    </td>
+                                                    <div id="add-contact" class="modal fade in" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                                                        <div class="modal-dialog">
+                                                            <div class="modal-content">
+                                                                <div class="modal-header">
+                                                                    <h4 class="modal-title" id="myModalLabel">Add  Details</h4>
+                                                                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                                                                </div>
+                                                                <div class="modal-body">
+                                                                    <from class="form-horizontal form-material">
+                                                                        <div class="form-group">
+                                                                            <div class="col-md-12 m-b-20">
+                                                                                <input type="text" class="form-control" placeholder="Sr"> </div>
+                                                                                <div class="col-md-12 m-b-20">
+                                                                                <input type="text" class="form-control" placeholder="Name"> </div>
+                                                                                <div class="col-md-12 m-b-20">
+                                                                                <input type="text" class="form-control" placeholder="State"> </div>
+                                                                                <div class="modal-footer">
+                                                                    <button type="button" class="btn btn-info waves-effect" data-dismiss="modal">Save</button>
+                                                                    <button type="button" class="btn btn-default waves-effect" data-dismiss="modal">Cancel</button>
+                                                                </div>
+                                                            </td>
+    <tr>
+      <th scope="col">Sr</th>
+      <th scope="col">Name</th>
+      <th scope="col">State</th>
+      
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>Rohan Shinde</td>
+      <td>Rajastan</td>
+      
+    <tr>
+      <th scope="row">2</th>
+      <td>Sam Patel</td>
+      <td>Maharashtra</td>
+    
+    </tr>
+    <tr>
+     <th scope="row">3</th>
+      <td>Ram Naik</td>
+      <td>Rajastan</td>
+      
+    </tr>
+  </tbody>
+</table>
                 <!-- Row -->
                 <!-- ============================================================== -->
                 <!-- End PAge Content -->

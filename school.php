@@ -10,7 +10,7 @@
     <meta name="author" content="">
     <!-- Favicon icon -->
     <link rel="icon" type="image/png" sizes="16x16" href="../assets/images/favicon.png">
-    <title>Eden School Admin Template - The Most Complete & Trusted Bootstrap 4 Admin Template</title>
+    <title>Material Pro Admin Template - The Most Complete & Trusted Bootstrap 4 Admin Template</title>
     <!-- Bootstrap Core CSS -->
     <link href="../assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <!-- Custom CSS -->
@@ -105,9 +105,44 @@
                 <!-- Start Page Content -->
                 <!-- ============================================================== -->
                 <!-- Row -->
-                <div class="row">
-                    
-                </div>
+               <table class="table table-bordered">
+  <thead>
+    <tr>
+      <th scope="col">Sr</th>
+      <th scope="col">Name</th>
+      <th scope="col">Address</th>
+      <th scope="col">Pin</th>
+      <th scope="col">Boards</th>
+    <th scope="col">All Basic Info</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>Rohan Shinde</td>
+      <td>Borivali(west)</td>
+      <td>400091</td>
+      <td>SSC</td>
+      <td>Thakur Poly</td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>Sam Patel</td>
+      <td>Borivali(west)</td>
+      <td>400091</td>
+      <td>CBSE</td>
+      <td>St Rocks</td>
+    </tr>
+    <tr>
+     <th scope="row">3</th>
+      <td>Ram Naik</td>
+      <td>Borivali(east)</td>
+      <td>400072</td>
+      <td>ICSE</td>
+      <td>Don Bosco</td>
+    </tr>
+  </tbody>
+</table>
                 <!-- Row -->
                 <!-- ============================================================== -->
                 <!-- End PAge Content -->

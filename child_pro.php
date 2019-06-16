@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+                                <!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -10,7 +10,7 @@
     <meta name="author" content="">
     <!-- Favicon icon -->
     <link rel="icon" type="image/png" sizes="16x16" href="../assets/images/favicon.png">
-    <title>Eden School Admin Template - The Most Complete & Trusted Bootstrap 4 Admin Template</title>
+    <title>Material Pro Admin Template - The Most Complete & Trusted Bootstrap 4 Admin Template</title>
     <!-- Bootstrap Core CSS -->
     <link href="../assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <!-- Custom CSS -->
@@ -105,9 +105,40 @@
                 <!-- Start Page Content -->
                 <!-- ============================================================== -->
                 <!-- Row -->
-                <div class="row">
-                    
-                </div>
+               <table class="table table-bordered-primary-table">
+  <thead>
+  	<tr scope="col">                    </tr>
+    <tr>
+      <th scope="col">Fileds</th>
+    </tr>
+  </thead>
+  <thead>
+  	<tr scope="col"></tr>
+  <tbody>
+    <tr>
+      <th scope="row"></th>
+      <td>     </td>
+      <td>     </td>
+      
+    <tr>
+      <th scope="row"></th>
+      <td>      </td>
+      <td>      </td>
+    
+    </tr>
+    <tr>
+     <th scope="row"></th>
+      <td>          </td>
+      <td>          </td>
+      
+    </tr>
+  </tbody>
+</thead>
+</table>
+<p align="right" >
+<button  type="button" class="btn btn-primary" >Save</button>
+<button  type="button" class="btn btn-primary" >X</button>
+</p>
                 <!-- Row -->
                 <!-- ============================================================== -->
                 <!-- End PAge Content -->
@@ -215,3 +246,4 @@
 </body>
 
 </html>
+

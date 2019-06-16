@@ -10,7 +10,7 @@
     <meta name="author" content="">
     <!-- Favicon icon -->
     <link rel="icon" type="image/png" sizes="16x16" href="../assets/images/favicon.png">
-    <title>Eden School Admin Template - The Most Complete & Trusted Bootstrap 4 Admin Template</title>
+    <title>Material Pro Admin Template - The Most Complete & Trusted Bootstrap 4 Admin Template</title>
     <!-- Bootstrap Core CSS -->
     <link href="../assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <!-- Custom CSS -->
@@ -105,9 +105,35 @@
                 <!-- Start Page Content -->
                 <!-- ============================================================== -->
                 <!-- Row -->
-                <div class="row">
-                    
-                </div>
+               <table class="table table-bordered">
+  <thead>
+    <tr>
+      <th scope="col">ID</th>
+      <th scope="col">Problem</th>
+      <th scope="col">Solution</th>
+      <th scope="col">        </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>      </td>
+      <td>      </td>
+      <td>      </td>
+    <tr>
+      <th scope="row">2</th>
+      <td>      </td>
+      <td>      </td>
+      <td>      </td>
+    </tr>
+    <tr>
+     <th scope="row">3</th>
+      <td>      </td>
+      <td>      </td>
+      <td>      </td>
+    </tr>
+  </tbody>
+</table>
                 <!-- Row -->
                 <!-- ============================================================== -->
                 <!-- End PAge Content -->
