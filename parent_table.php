@@ -10,7 +10,7 @@
     <meta name="author" content="">
     <!-- Favicon icon -->
     <link rel="icon" type="image/png" sizes="16x16" href="../assets/images/favicon.png">
-    <title>Eden School Admin Template - The Most Complete & Trusted Bootstrap 4 Admin Template</title>
+    <title>Material Pro Admin Template - The Most Complete & Trusted Bootstrap 4 Admin Template</title>
     <!-- Bootstrap Core CSS -->
     <link href="../assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <!-- Custom CSS -->
@@ -105,9 +105,44 @@
                 <!-- Start Page Content -->
                 <!-- ============================================================== -->
                 <!-- Row -->
-                <div class="row">
-                    
-                </div>
+               <table class="table table-bordered">
+  <thead>
+    <tr>
+      <th scope="col">Sr</th>
+      <th scope="col">ID</th>
+      <th scope="col">Name</th>
+      <th scope="col">Phone No</th>
+      <th scope="col">Email</th>
+      <th scope="col">Child By Id</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>45</td>
+      <td>Sahil Sawant</td>
+      <td>986456468</td>
+      <td>saassds@gmail.com</td>
+      <td>62</td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>88</td>
+      <td>Gaurav Sawant</td>
+      <td>986444564</td>
+      <td>safgdgds@gmail.com</td>
+      <td>25</td>
+    </tr>
+    <tr>
+     <th scope="row">3</th>
+      <td>88</td>
+      <td>Ram patel</td>
+      <td>925448452</td>
+      <td>dsdsdfsdfs@gmail.com</td>
+      <td>66</td>
+    </tr>
+  </tbody>
+</table>
                 <!-- Row -->
                 <!-- ============================================================== -->
                 <!-- End PAge Content -->
